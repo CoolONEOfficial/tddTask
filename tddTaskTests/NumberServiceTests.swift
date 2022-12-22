@@ -13,7 +13,7 @@ final class NumberServiceTests: XCTestCase {
     var service: NumberServicing!
     
     override func setUpWithError() throws {
-        //service = NumberService()
+        service = NumberService()
     }
 
     override func tearDownWithError() throws {
