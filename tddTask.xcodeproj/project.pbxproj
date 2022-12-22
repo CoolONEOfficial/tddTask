@@ -16,6 +16,8 @@
 		56C3365129548F8500E9ADBD /* tddTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3365029548F8500E9ADBD /* tddTaskTests.swift */; };
 		56C3365B29548F8500E9ADBD /* tddTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3365A29548F8500E9ADBD /* tddTaskUITests.swift */; };
 		56C3365D29548F8500E9ADBD /* tddTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3365C29548F8500E9ADBD /* tddTaskUITestsLaunchTests.swift */; };
+		56C3366A29548F9C00E9ADBD /* NumberService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3366929548F9C00E9ADBD /* NumberService.swift */; };
+		56C3366C29548FCE00E9ADBD /* NumberServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3366B29548FCE00E9ADBD /* NumberServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		56C3365629548F8500E9ADBD /* tddTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tddTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C3365A29548F8500E9ADBD /* tddTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tddTaskUITests.swift; sourceTree = "<group>"; };
 		56C3365C29548F8500E9ADBD /* tddTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tddTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56C3366929548F9C00E9ADBD /* NumberService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberService.swift; sourceTree = "<group>"; };
+		56C3366B29548FCE00E9ADBD /* NumberServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				56C3364229548F8500E9ADBD /* Assets.xcassets */,
 				56C3364429548F8500E9ADBD /* LaunchScreen.storyboard */,
 				56C3364729548F8500E9ADBD /* Info.plist */,
+				56C3366929548F9C00E9ADBD /* NumberService.swift */,
 			);
 			path = tddTask;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				56C3365029548F8500E9ADBD /* tddTaskTests.swift */,
+				56C3366B29548FCE00E9ADBD /* NumberServiceTests.swift */,
 			);
 			path = tddTaskTests;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C3366A29548F9C00E9ADBD /* NumberService.swift in Sources */,
 				56C3363E29548F8300E9ADBD /* ViewController.swift in Sources */,
 				56C3363A29548F8300E9ADBD /* AppDelegate.swift in Sources */,
 				56C3363C29548F8300E9ADBD /* SceneDelegate.swift in Sources */,
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C3366C29548FCE00E9ADBD /* NumberServiceTests.swift in Sources */,
 				56C3365129548F8500E9ADBD /* tddTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
